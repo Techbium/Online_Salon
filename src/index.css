@@ -1,0 +1,21 @@
+/* Base reset - layout handled in App.css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #080c0e;
+}
+
+a {
+  text-decoration: none;
+}
