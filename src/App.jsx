@@ -298,9 +298,10 @@ function Hero() {
           <span className="hero__pill">✦ Premium Hair — Human-hair, Blends &amp; More</span>
         </div>
         <h1 className="hero__title">
-          Your Beauty<br/>
-          <em>Speaks Louder.</em>
+          NASNA'S<br />
+          <span>LUXURY EMPIRE</span>
         </h1>
+        <p className="hero__motto">Your Beauty Speaks Louder.</p>
         <p className="hero__sub">
           Nasna's Luxury Empire brings you premium human hair, stunning blends,
           and professional hair maintenance kits. Browse and order directly via WhatsApp.

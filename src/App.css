@@ -385,9 +385,17 @@ a {
   margin-bottom: 1.3rem;
 }
 
-.hero__title em {
-  font-style: italic;
+.hero__title span {
   color: var(--cyan);
+}
+
+.hero__motto {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--muted);
+  margin-bottom: 1rem;
+  font-family: var(--font-display);
+  font-style: italic;
 }
 
 .hero__sub {
