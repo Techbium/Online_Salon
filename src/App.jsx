@@ -295,10 +295,10 @@ function Hero() {
 
       <div className="hero__content">
         <div className="hero__badge-row">
-          <span className="hero__pill">✦ Premium Hair — Human, Blends &amp; More</span>
+          <span className="hero__pill">✦ Premium Hair — Human-hair, Blends &amp; More</span>
         </div>
         <h1 className="hero__title">
-          Your Beauty<br />
+          Your Beauty<br/>
           <em>Speaks Louder.</em>
         </h1>
         <p className="hero__sub">
@@ -551,7 +551,7 @@ function Contact() {
                 <label>Your Name</label>
                 <input name="name" type="text" placeholder="Full name" value={form.name} onChange={change} required />
               </div>
-              <div className="field">
+              {/* <div className="field">
                 <label>Interested In</label>
                 <select name="interest" value={form.interest} onChange={change} required>
                   <option value="">Select a product...</option>
@@ -560,7 +560,7 @@ function Contact() {
                   ))}
                   <option value="Other">Other / Not Sure</option>
                 </select>
-              </div>
+              </div> */}
               <div className="field">
                 <label>Message / Details</label>
                 <textarea name="message" rows="4" placeholder="Length, colour, quantity..." value={form.message} onChange={change} />

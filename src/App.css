@@ -44,8 +44,8 @@ html {
 
 body {
   font-family: var(--font-body);
-  background: var(--dark);
-  color: var(--text);
+  background: #fce4ec;
+  color: #333;
   overflow-x: hidden;
   min-height: 100vh;
 }

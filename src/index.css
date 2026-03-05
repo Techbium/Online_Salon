@@ -13,7 +13,8 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #080c0e;
+  background-color: #fce4ec; /* Soft pink */
+  color: #333;
 }
 
 a {
